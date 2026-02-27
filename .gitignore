@@ -1,0 +1,24 @@
+# Terraform folders
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Sensitive variable files
+*.tfvars
+terraform.tfvars
+
+# Crash logs
+crash.log
+
+# Lock file (optional depending company policy)
+.terraform.lock.hcl
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# SSH Keys
+*.pem
+*.key
